@@ -1,0 +1,17 @@
+{
+    "name": "node-red-express",
+    "description": "A simple node-red & express server",
+    "version": "0.0.1",
+    "private": false,
+    "type": "module",
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "express": "^4.17.1",
+        "moment": "^2.24.0",
+        "node-red": "^3.0.0",
+        "node-red-dashboard": "node-red/node-red-dashboard"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
